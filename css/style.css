@@ -26,21 +26,21 @@ header strong {
 
 main {
   width: 80%;
-  margin: 2rem auto;
-  padding: 2rem 2rem;
+  margin: 30px auto;
+  padding: 30px 30px;
   background-color: white;
   border-radius: 10px;
 }
 
 .controls {
     display: flex;
-    gap: 1rem;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
+    gap: 16px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .task-btn {
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     border-radius: 5px;
     border: none;
     color: white;
@@ -49,7 +49,7 @@ main {
 }
 
 .section-btn {
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     border-radius: 5px;
     border: 1px solid gray;
     background-color: white;
@@ -58,12 +58,12 @@ main {
 }
 
 .task-section {
-    margin-bottom: 2rem;
+    margin-bottom: 30px;
 }
 
 .task-section h2 {
-  font-size: 1.5rem;
-  padding-bottom: 0.5rem;
+  font-size: 24px;
+  padding-bottom: 8px;
 }
 
 ul {
@@ -71,20 +71,19 @@ ul {
 }
 
 li {
-  padding: 0.5rem 0;
+  padding: 8px 0;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .check {
-    font-size: 1.2rem;
-    color: aquamarine;
+    font-size: 20px;
+    color: rgb(66, 226, 173);
 }
 
 .cross {
-    font-size: 1.2rem;
+    font-size: 20px;
     color: red;
 }
 
